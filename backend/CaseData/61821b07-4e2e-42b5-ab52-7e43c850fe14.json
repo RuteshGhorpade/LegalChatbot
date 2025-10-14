@@ -1,0 +1,13 @@
+{
+    "title": "State vs. John Doe",
+    "judge": "Hon. Justice A. Sharma",
+    "date": "2024-03-10",
+    "case_type": "Criminal",
+    "parties": "State and John Doe",
+    "summary": "The defendant, John Doe, was accused of data theft and unauthorized access to confidential company information. The crime was reported on December 20, 2023. The case was filed in the District Court on January 5, 2024. The defendant was found guilty of data theft and sentenced to two years of imprisonment and a fine. The verdict was delivered on March 10, 2024, by the District Court, Pune. The case involved charges of unauthorized access to a protected system and theft of confidential information.",
+    "verdict": "In favor of the State, guilty of data theft",
+    "issues": "Unauthorized access to a protected system, Theft of confidential information",
+    "entities": "State (Plaintiff), John Doe (Defendant)",
+    "damages": "Total $150,000, including a fine of $150,000, with two years of imprisonment",
+    "damages_amount": "$150,000"
+}

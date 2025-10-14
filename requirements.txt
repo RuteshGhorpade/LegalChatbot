@@ -1,0 +1,10 @@
+
+flask
+flask-cors
+python-dotenv
+python-docx
+PyMuPDF
+groq
+httpx
+neo4j
+tenacity
