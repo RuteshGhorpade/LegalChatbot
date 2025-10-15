@@ -34,7 +34,7 @@ function App() {
 
   const checkServerHealth = async () => {
     try {
-      await axios.get('http://localhost:5001/health', { timeout: 2000 });
+      await axios.get('https://legalchatbot-3.onrender.com/health', { timeout: 2000 });
       return true;
     } catch {
       return false;
@@ -70,7 +70,7 @@ function App() {
     formData.append('file', file);
 
     try {
-      const uploadRes = await axios.post('http://localhost:5001/upload', formData, {
+      const uploadRes = await axios.post('https://legalchatbot-3.onrender.com/upload', formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
         timeout: 30000,
       });
@@ -99,7 +99,7 @@ function App() {
     setError('');
 
     try {
-      const res = await axios.post('http://localhost:5001/chat', {
+      const res = await axios.post('https://legalchatbot-3.onrender.com/chat', {
         message: userMessage,
         case_id: documentId,
       });
@@ -117,7 +117,7 @@ function App() {
     if (chatLog.length === 0) return;
 
     try {
-      const summaryRes = await axios.post('http://localhost:5001/conversation_summary', {
+      const summaryRes = await axios.post('https://legalchatbot-3.onrender.com/conversation_summary', {
         chat: chatLog,
         case_id: documentId,
       });
